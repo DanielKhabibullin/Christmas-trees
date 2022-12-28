@@ -1,11 +1,13 @@
-.burger {
-	display: none;
+@media (max-width: 1440px) {
+
+}
+
+@media (max-width: 1200px) {
+
 }
 
 @media (max-width: 1000px) {
-	.burger {
-		display: block;
-	}
+
 }
 
 @media (max-width: 760px) {
