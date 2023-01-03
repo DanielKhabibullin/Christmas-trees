@@ -63,7 +63,7 @@ background-color: var(--main-bg-color);
 
 	.header__container {
 		grid-template-columns: repeat(3, 1fr);
-		row-gap: 38px;
+		gap: 38px;
 	}
 
 	.header__burger {
@@ -78,7 +78,6 @@ background-color: var(--main-bg-color);
 		justify-self: center;
 	}
 
-
 	.header__consultation {
 		padding: 8px 20px;
 		font-size: 14px;
@@ -86,7 +85,7 @@ background-color: var(--main-bg-color);
 		
 		grid-row: 1;
 		grid-column: 3;
-		justify-self: end;
+
 	}
 
 	.header__navigation {
@@ -95,12 +94,10 @@ background-color: var(--main-bg-color);
 	}
 }
 
-
 @media (max-width: 580px) {
 	.header {
 		padding-top: 16px;
 		padding-bottom: 20px;
-
 	}
 	.header__consultation {
 		padding: 5px 14px;
@@ -108,6 +105,6 @@ background-color: var(--main-bg-color);
 	}
 
 	.header__container {
-		row-gap: 15px;
+		gap: 15px;
 	}
 }

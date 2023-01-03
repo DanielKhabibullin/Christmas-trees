@@ -69,7 +69,7 @@
 		font-size: 14px;
 	}
 	.navigation__link:before {
-		display: none;
+		content: none;
 	}
 }
 
