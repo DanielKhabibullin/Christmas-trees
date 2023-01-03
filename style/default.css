@@ -7,6 +7,7 @@
 
 html {
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 *, *::after ,*::before {
@@ -26,12 +27,8 @@ body {
 }
 h1, h2 {
 	font-family: Cormorant, serif;
-	font-weight: 700;
-	font-size: 70px;
-	line-height: 100%;
-	letter-spacing: 0.01em;
-	color: var(--main-color);
 }
+
 h1, h2, h3, p {
 	margin: 0;
 }
