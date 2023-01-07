@@ -4,7 +4,6 @@
 	justify-content: center;
 
 	min-height: 146px;
-	padding: 35px;
 	margin-bottom: 20px;
 
 	color: var(--main-color);
@@ -35,7 +34,6 @@
 @media (max-width: 1200px) {
 	.option-pay__picture-wrapper {
 		min-height: 106px;
-		padding: 25px;
 		margin-bottom: 15px;
 	}
 	.option-pay__title {
@@ -50,7 +48,6 @@
 @media (max-width: 1000px) {
 	.option-pay__picture-wrapper {
 		min-height: 73px;
-		padding: 18px;
 		margin-bottom: 10px;
 	}
 	.option-pay__title {
